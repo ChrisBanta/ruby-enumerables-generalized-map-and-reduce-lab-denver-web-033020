@@ -4,7 +4,6 @@ def map_to_negativize(array)
   while i < array.length do
 new.push(yield(array[i] * -1))
   i += 1
-
-  end
+end
    return new
 end
